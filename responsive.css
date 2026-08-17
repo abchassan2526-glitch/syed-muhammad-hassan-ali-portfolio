@@ -1,0 +1,509 @@
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --second-text: #bfcddd;
+    --main-color: #00c2ff;
+    --glow-color: #6c63ff;
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 60%;
+    }
+
+    section {
+        padding: 10rem 7% 2rem;
+    }
+
+    .header {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: 93%;
+        top: 1.5rem;
+    }
+
+    .navbar a {
+        padding: 1.2rem 2.2rem;
+        font-size: 1.5rem;
+    }
+
+    .logo-text {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home {
+        padding: 10rem 7% 1rem;
+    }
+
+    .home-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.8rem;
+    }
+
+    .home-content p {
+        font-size: 1.6rem;
+    }
+
+    .scroll-indicator {
+        left: 48%;
+    }
+
+    .profile-circle {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .about-card {
+        width: 350px;
+    }
+
+    .about-heading {
+        font-size: 3.7rem;
+    }
+
+    .about-text {
+        font-size: 1.6rem;
+    }
+
+    .achievement-card h3 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        top: 1.5rem;
+        width: 95%;
+    }
+
+    .nav-container {
+        padding: 1.3rem 2rem 1.3rem 2.5rem;
+    }
+
+    .navbar {
+        gap: 0.5rem;
+    }
+
+    .navbar a {
+        padding: .8rem 1.5rem;
+    }
+
+    .home {
+        gap: 1rem;
+        padding: 12rem 7% 1rem;
+    }
+
+    .home-content h1 {
+        font-size: 3.8rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.5rem;
+    }
+
+    .profile-circle {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .image-card {
+        padding: 2rem 1.8rem 1rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: .8rem 1.7rem;
+    }
+
+    .btn-box {
+        margin-bottom: 2rem;
+    }
+
+    .social-icons a {
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+
+    /* About Section */
+
+    .about {
+        padding: 8rem 9%;
+    }
+
+    .about-card {
+        width: 300px;
+        height: 100%;
+    }
+
+    .about-image {
+        height: 250px;
+    }
+
+    .about-heading {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-text {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-features {
+        gap: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .feature {
+        font-size: 1.5rem;
+    }
+
+    .achievement-card h3 {
+        font-size: 2.5rem;
+    }
+
+    .journey {
+        padding: 0   0 0 4.5rem;
+    }
+
+    /* skills set */
+
+    .skills {
+        padding: 8rem 6%;
+    }
+
+    .skill-category {
+        padding: 3.5rem 2.5rem 2.5rem;
+    }
+
+    .tool-item {
+        padding: 1.5rem;
+        gap: 1.2rem;
+    }
+
+    .tool-item:hover i {
+        transform: rotate(-10deg) scale(1.10);
+    }
+
+    /* education section */
+
+    .education-container {
+        column-gap: 10rem;
+        row-gap: 10rem;
+    }
+
+    .education-title {
+        font-size: 2.3rem;
+        font-weight: 700;
+    }
+
+    .education-institute {
+        font-size: 1.7rem;
+    }
+
+    .education-card {
+        padding: 4.2rem 1.5rem 2rem;
+    }
+
+    .education-icon {
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 2.1rem;
+    }
+
+    .card-1::before,
+    .card-3::before {
+        left: calc(100% + 5.4rem);
+    }
+
+    .section-title {
+        font-size: 4rem;
+    }
+
+
+    .section-description {
+        font-size: 1.6rem;
+    }
+
+    .section-tag {
+        font-size: 1.8rem;
+        padding: 1.5rem 2.8rem;
+    }
+
+    /* project section */
+
+    .project-content {
+        padding: 2rem;
+    }
+
+    .projects {
+        padding: 10rem 6% 8rem;
+    }
+
+    .projects-container {
+        gap: 4rem;
+    }
+
+    .project-content {
+        padding: 2rem;
+    }
+
+    .project-video video {
+        height: 17rem;
+    }
+
+    .project-title {
+        font-size: 2.4rem;
+    }
+
+    .project-description {
+        font-size: 1.5rem;
+    }
+
+    .project-links a {
+        padding: .6rem 1rem;
+    }
+
+    /* contact section */
+
+    .contact-container {
+        max-width: 75rem;
+    }
+
+    /* footer section */
+
+    .footer {
+        padding: 2rem 6%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 2rem;
+    }
+
+    .input-box {
+        grid-template-columns: 1fr;
+    }
+
+
+    .preloader-logo {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .loader-ring {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .preloader p {
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        position: absolute;
+        top: 8.5rem;
+        left: 0;
+        width: 100%;
+
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+
+        background: var(--second-bg-color);
+        border-radius: 20px;
+        box-shadow:
+            0 10px 30px rgba(0, 0, 0, .35),
+            0 0 25px rgba(79, 157, 255, .15);
+
+        padding: 1rem 0;
+        text-align: center;
+        transition: .35s ease;
+    }
+
+    .navbar a {
+        padding: 1.1rem 2rem;
+        border-radius: 13px;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .menu-wraper {
+        display: flex;
+    }
+
+    #menu-icon {
+        transition: transform .35s ease, opacity .2s ease;
+    }
+
+    #menu-icon.active {
+        transform: rotate(180deg);
+    }
+
+    /* home section */
+
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+        padding: 10rem 6% 4rem;
+    }
+
+    .profile-circle {
+        width: 28rem;
+        height: 28rem;
+    }
+
+    .image-card {
+        padding: 2.5rem 2rem 2rem;
+    }
+
+    .image-box {
+        height: fit-content;
+        margin: 1rem 0 1rem;
+    }
+
+    .btn-box {
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+
+    /* About Section */
+    .about-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .about-info h3 {
+        font-size: 2.4rem;
+    }
+
+    /* Skills Section */
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .skill-category {
+        padding: 2rem;
+    }
+
+    /* Education Section */
+    .education-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin: 5rem auto;
+    }
+
+    .education-card {
+        min-height: auto;
+        padding: 4.5rem 1.8rem 2rem;
+    }
+
+    .card-1::before {
+        display: none;
+    }
+
+    .card-1::after {
+        display: none;
+    }
+
+    .card-3::before {
+        display: none;
+    }
+
+    .card-3::after {
+        display: none;
+    }
+
+    .education-title {
+        font-size: 2.4rem;
+    }
+
+    .education-institute {
+        font-size: 1.8rem;
+    }
+
+    /* Projects Section */
+    .projects {
+        padding: 7rem 6% 5rem;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        margin-top: 4rem;
+    }
+
+    .project-video video {
+        height: 20rem;
+    }
+
+    .project-content {
+        padding: 2rem;
+    }
+
+    .project-title {
+        font-size: 2.2rem;
+    }
+
+    .project-links {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    /* Contact Section */
+    .textarea-box textarea {
+        min-height: 14rem;
+    }
+
+    .back-to-top a {
+        width: 4.2rem;
+        height: 4.2rem;
+        font-size: 2rem;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+}
